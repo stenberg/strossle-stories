@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   for (var i = 0; i < posts.length; i++) {
-    posts[i].addEventListener('click', openStory, false);
+    posts[i].getElementsByTagName('a')[0].addEventListener('click', openStory, false);
   }
 });
