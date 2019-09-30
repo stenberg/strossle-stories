@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', function() {
 
-  var posts = document.getElementsByClassName("strossle-post");
+  var posts = window.getElementsByClassName("strossle-post");
 
   var openStory = function(e) {
     e.preventDefault();
